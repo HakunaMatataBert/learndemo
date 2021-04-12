@@ -15,7 +15,7 @@ public class DataBaseTools {
 
     @Scheduled(cron = "0/5 * * * * ?")
     public void  executeTask(){
-        System.out.println("执行任务.......");
+        System.out.println("执行任务..........");
     }
 
 
