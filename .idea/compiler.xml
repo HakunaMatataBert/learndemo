@@ -8,17 +8,20 @@
         <outputRelativeToContentRoot value="true" />
         <module name="learndemo" />
         <module name="firsttestdemo" />
+        <module name="redisdemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="firsttestdemo" target="1.8" />
       <module name="learndemo" target="1.8" />
+      <module name="redisdemo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="firsttestdemo" options="-parameters" />
       <module name="learndemo" options="-parameters" />
+      <module name="redisdemo" options="-parameters" />
     </option>
   </component>
 </project>
